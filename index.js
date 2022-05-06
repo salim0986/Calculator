@@ -21,7 +21,8 @@ btn.forEach(btn => {
 
         } else {
             if (action === "clear") {
-                spanDisplay.textContent = 0
+                spanDisplay.textContent = 0;
+                extraDisplay.textContent="";
             } else if (action === "decimal") {
                 const dec = e.target.textContent
                 spanDisplay.append(dec)
